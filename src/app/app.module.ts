@@ -10,6 +10,7 @@ import {CoreModule} from './core/core.module';
 import {FlightsModule} from './flights/flights.module';
 import {AngularFireDatabaseModule} from '@angular/fire/database';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {AngularFireAuthModule} from '@angular/fire/auth';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     MaterialModule,
     CoreModule,
     FlightsModule,
+    AngularFireAuthModule,
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
   ],
