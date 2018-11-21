@@ -22,7 +22,6 @@ import {AngularFireAuthModule} from '@angular/fire/auth';
     AngularFireModule.initializeApp(environment.firebase),
     MaterialModule,
     CoreModule,
-    FlightsModule,
     AngularFireAuthModule,
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
